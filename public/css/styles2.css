@@ -1,0 +1,541 @@
+*{   
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    display: flexbox;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #EAC926;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 12px;
+}
+
+/* Navbar */
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.burger-menu {
+    background-color: #1259c3;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    margin: auto;
+    max-width: 45px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 12px 0;
+}
+
+main {
+    margin: auto;
+    width: 90%;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+
+article div {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+nav ul, .nav {
+    display: none;
+}
+
+input[type=search], .i-search {
+    display: none;
+}
+
+.logo {
+    width: 200px;
+}
+
+.text-header {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.main-navbar ul a {
+    padding: 5px 0;
+}
+
+/* Main */
+
+article {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+
+div.last-visit,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount{
+    width: 70%;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img{
+    width: 100%;
+}
+
+
+main section article{
+    background-color: #fff;  
+    border: 1px solid #ebebeb;  
+    margin: 10px 0px;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+/*.navbar ul a {
+    padding: 5px 0;
+}*/
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transition: transform 450ms linear;
+}
+
+main section h3{
+    margin: 20px 0px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+/* Main register */
+
+main.register{
+    width: auto;
+    text-align: center;
+    background-color: #ffffff;
+    display: flexbox;
+    margin: 30px 300px;
+    padding: 15px 30px;
+    display: flexbox;
+    border: solid 2px #EAC926; 
+    border-top: solid 30px #EAC926; 
+    border-radius: 8px;
+}
+
+main.register div{
+    margin: auto;
+    width: 100%;
+    padding: 15px 35px;
+    display: block;
+    color: #0022AA;
+    text-align: left;
+    font-size: 16px;
+
+}
+
+input[type="email"],[type="password"],[type="text"] {
+    width: 100%;
+    height: 30px;
+}
+
+main.register div.box{
+    padding-top: 0px;
+
+}
+
+main.register div.registrate{
+    text-align: center;
+    color: #0022AA;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+main.register div.botones{
+    text-align: center;
+}
+
+main div button{
+    height: 40px;
+    width: 70px;
+    color: #0022AA;
+}
+
+form input:hover{
+    background-color: #ebebeb;
+}
+
+main div button:hover{
+    background-color: #0022AA;
+    opacity: 1;
+    color: #ffffff;
+}
+
+/* Main login */
+
+main.login{
+    width: auto;
+    text-align: center;
+    background-color: #ffffff;
+    display: flexbox;
+    margin: 30px 300px;
+    padding: 15px 30px;
+    display: flexbox;
+    border: solid 2px #EAC926; 
+    border-top: solid 30px #EAC926; 
+    border-radius: 8px;
+}
+
+main.login div{
+    margin: auto;
+    width: 100%;
+    padding: 15px 35px;
+    display: block;
+    color: #0022AA;
+    text-align: left;
+    font-size: 16px;
+
+}
+
+input[type="email"],[type="password"],[type="text"] {
+    width: 100%;
+    height: 30px;
+}
+
+main.login div.box{
+    padding-top: 0px;
+
+}
+
+main.login div.registrate{
+    text-align: center;
+    color: #0022AA;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+form input:hover{
+    background-color: #ebebeb;
+}
+
+main.login div.boton{
+    text-align: center;
+}
+
+@media (min-width: 361px){
+    
+    main section article .description{
+        display: none;
+    }
+
+    input[type=search], .i-search {
+        display: inline;
+    }
+
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+
+    .price,
+    .discount{
+        width: 50%;
+    }
+
+    main.register{
+        margin: 50px 30px;
+    
+    }
+
+    main.login div.registrate{
+        font-size: 35px;
+    }
+
+    main.login{
+        margin: 50px 30px;
+    
+    }
+
+    main.register div.registrate{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 769px){
+    main section div.products article{
+        width: 22%;}
+
+    .imgLogo {
+        width: 100%;
+    }
+
+    input[type=search], .i-search {
+        display: inline;
+    }
+    
+    .main-header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text-header {
+        min-width: 350px;
+        text-align: right;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 7px;
+    }
+        
+    .burger-menu {
+        display: none;
+    }
+
+    div.logo{
+        width: 30%;
+        height: 50%;
+    }
+
+    input[type=search], .i-search {
+        display: inline;
+    }
+
+    .main-header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text-header {
+        min-width: 350px;
+        text-align: right;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 7px;
+    }
+    
+    main.register{
+        margin: 50px 50px;
+    
+    }
+
+    main.login div.registrate{
+        font-size: 45px;
+    }
+
+    main.login{
+        margin: 50px 50px;
+    
+    }
+
+    main.register div.registrate{
+        font-size: 45px;
+    }
+
+@media (min-width: 1200px) {
+   
+
+
+    .cuotas {
+        max-width: none;
+        font-weight: 500;
+        align-items: center;
+    }
+
+    .imgLogo {
+        width: 250px;
+    }
+
+    .fa-truck {
+        margin-left: 85%;
+    }
+
+    main.register{
+        margin: 50px 300px;
+    
+    }
+
+    main.login div.registrate{
+        font-size: 50px;
+    }
+
+    main.login{
+        margin: 50px 400px;
+    
+    }
+
+    main.register div.registrate{
+        font-size: 50px;
+    }
+}
+
+/*pseudoselectores*/
+
+.main-article:hover > .description{
+    display: block;
+    background-color: #ebebeb;
+
+}
+
+main section article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+main section div h4.description{
+    display: none;
+}
+
+}
+
+main section article i:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+footer div{
+    margin: 10px;
+}
+
+.fa-credit-card, .fa-gift, .fa-user-shield{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+
+h4{
+    font-size: 10px;
+    color: #666666;
+    background-color: #ffffff;
+}
+
+.fa-credit-card:hover, .fa-gift:hover, .fa-user-shield:hover{
+    color: #87cefa;
+}
+
+.icono{
+    color: #0022AA;
+}
+
+.icono:hover{
+    color: #87cefa;
+}
+
+b{
+    font-size: 10px;
+    color: lightslategray;
+}
+
+
+
+
